@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
+}
+
+[wm-flappy] {
+    width: 1000px;
+    height: 600px;
+    background-color: #6ACEE8;
+    border: solid 3px slateblue;
+    overflow: hidden;
+}
+
+.passaro {
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: calc(50% + 50px);
+}
+
+.par-de-barreiras {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barreira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo {
+    width: 90px;
+    height: 130px;
+    background-image: linear-gradient(to right, #A4E34F, #74C11E, #558317);
+    border-left: solid 3px #213B0F;
+    border-right: solid 3px #213B0F;
+}
+
+.borda {
+    width: 115px;
+    height: 30px;
+    background-image: linear-gradient(to right, #A4E34F, #74C11E, #558317);
+    border: solid 3px #213B0F;
+}
