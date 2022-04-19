@@ -4,22 +4,26 @@
 }
 
 [wm-flappy] {
-    width: 1000px;
-    height: 600px;
+    width: 1200px;
+    height: 700px;
     background-color: #6ACEE8;
-    border: solid 3px slateblue;
+    border: solid 7px slateblue;
     overflow: hidden;
+    position: relative;
 }
 
 .passaro {
     position: absolute;
+    width: 60px;
     left: calc(50% - 50px);
     bottom: calc(50% + 50px);
 }
 
 .par-de-barreiras {
-    display: flex;
+    position: absolute;
+    top: 0;
     height: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -30,7 +34,7 @@
     align-items: center;
 }
 
-.corpo {
+.barreira .corpo {
     width: 90px;
     height: 130px;
     background-image: linear-gradient(to right, #A4E34F, #74C11E, #558317);
