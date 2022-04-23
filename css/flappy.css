@@ -47,3 +47,12 @@
     background-image: linear-gradient(to right, #A4E34F, #74C11E, #558317);
     border: solid 3px #213B0F;
 }
+
+.progresso {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-family: Pixel;
+    font-size: 70px;
+    z-index: 100;
+}
