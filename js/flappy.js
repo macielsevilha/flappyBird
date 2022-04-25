@@ -132,8 +132,8 @@ function estaoSobrepostos(elementoA, elementoB) {
 
     const horizontal = a.left + a.width >= b.left &&
         b.left + b.width >= a.left
-    const vertical = a.top + a.bottom >= b.top &&
-        b.top + b.bottom >= a.top
+    const vertical = a.top + a.height >= b.top &&
+        b.top + b.height >= a.top
 
     return horizontal && vertical
 }
